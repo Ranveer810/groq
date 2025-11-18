@@ -1,5 +1,11 @@
 import Chat from "@/components/chat";
+import { Header } from "@/components/header";
 
 export default function Page() {
-  return <Chat />;
+  return (
+    <>
+      <Header />
+      <Chat />
+    </>
+  );
 }
