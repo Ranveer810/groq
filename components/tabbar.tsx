@@ -1,6 +1,6 @@
 "use client";
-
 import React, { useState } from "react";
+import Chat from "./chat";
 
 const TAB_LIST = [
   { key: "chat", label: "Chat" },
@@ -29,7 +29,7 @@ export const TabBar = () => {
         ))}
       </div>
       <div className="p-4">
-        {activeTab === "chat" && <div>Chat interface content</div>}
+        {activeTab === "chat" && <Chat />}
         {activeTab === "code" && <div>Code editor content</div>}
         {activeTab === "preview" && <div>Preview window content</div>}
       </div>
