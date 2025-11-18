@@ -1,11 +1,5 @@
-import Chat from "@/components/chat";
-import { Header } from "@/components/header";
+import { TabBar } from "@/components/tabbar";
 
 export default function Page() {
-  return (
-    <>
-      <Header />
-      <Chat />
-    </>
-  );
+  return <TabBar />;
 }
