@@ -12,7 +12,7 @@ export const TabBar = () => {
   const [activeTab, setActiveTab] = useState("chat");
 
   return (
-    <div className="w-full bg-white dark:bg-zinc-950 border-b border-zinc-200 dark:border-zinc-800">
+    <div className="w-full bg-white dark:bg-zinc-950">
       <div className="flex items-center gap-2 px-4 h-12">
         {TAB_LIST.map((tab) => (
           <button
